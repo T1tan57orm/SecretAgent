@@ -1,0 +1,35 @@
+html {
+  color: white;
+  background-color: black;
+  font-family: helvetica;
+}
+
+.top {
+   display: inline-flex;
+   margin-left: 25px;
+   padding: 15px;
+}
+
+
+.top img {
+  width: 25%;
+  height: 25%;
+  padding-right: 15px;
+}
+
+.moto {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: maroon;
+}
+
+.banner img {
+  background-size: cover;
+  justify-content: space-around;
+}
